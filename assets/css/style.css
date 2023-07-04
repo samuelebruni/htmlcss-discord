@@ -62,7 +62,7 @@ ul{
 }
 
 .py-bottom4{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .maintitle{
@@ -195,6 +195,10 @@ span .black{
 
 .col_center span{
     margin: 10px;
+}
+
+.m-top{
+    margin-top: -16px;
 }
 /* #endregion */
 
