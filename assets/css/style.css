@@ -1,0 +1,199 @@
+/* #region Commons*/
+
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+}
+
+/* #endregion*/
+
+/* #region Utilities */
+
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 25%;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* #endregion*/
+
+/* #region Debug */
+
+
+.col_header{
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.col_center{
+    border: 2px solid black;
+    height: 200px;
+}
+
+main .col {
+    height: 300px;
+    background-color: red;
+}
+
+main .container{
+    background-color: orange;
+    margin-bottom: 10rem;
+}
+
+.col_3{
+    background-color: red;
+    border: 2px solid black;
+}
+
+.text{
+    background-color: deeppink;
+    height: 90%;
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+.big_container{
+    height: 500px;
+    background-color: orange;
+}
+
+footer .container{
+    background-color: orange;
+    margin-bottom: 10rem;
+    height: 400px;
+}
+
+.bottom_container{
+    height: 150px;
+    background-color: deeppink;
+}
+
+.col_footer{
+    border: 2px solid black;
+    height: 360px;
+    background-color: red;
+}
+
+.col_4{
+    border: 2px solid black;
+    height: 360px;
+    background-color: red;
+}
+
+.bottom_col{
+    border: 2px solid black;
+    background-color: white;
+    height: 50px;
+}
+/* #endregion */
+
+/* #region Header */
+
+header{
+    background-color: #3161e0;
+}
+
+.col_header{
+width: 50%;
+}
+
+.bottom_header{
+    background-color: aqua;
+}
+
+.col_center{
+    width: 50%;
+    margin: 3rem;
+}
+
+header .row{
+    justify-content: center;
+}
+
+/* #endregion */
+
+/* #region Main*/
+
+main .row{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.col_3 {
+    width: 75%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.big_container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+}
+/*#endregion*/
+
+
+/* #region Foot*/
+.col_footer{
+    width: 13%;
+    margin: auto;
+    margin-top: 1.2rem;
+}
+
+.col_4{
+    width: 30%;
+    margin:auto;
+    margin-top: 1.2rem;
+}
+
+footer .row{
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .container{
+    margin-bottom: 4rem;
+}
+
+.bottom_container{
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bottom_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_col{
+    width: 25%;
+    margin-top: 3rem;
+}
+
+/* #endregion*/
