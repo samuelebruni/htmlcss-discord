@@ -30,7 +30,7 @@ body{
 }
 
 .col{
-    width: 25%;
+    width: 30%;
     padding-top: 2rem;
 }
 
@@ -55,9 +55,21 @@ ul{
     padding-bottom: 1rem;
 }
 
+.py-bottom4{
+    padding-bottom: 4rem;
+}
+
 .maintitle{
     font-size: 40px;    
     font-weight: bold;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.fs-30{
+    font-size: 30px;
 }
 
 .bg-black{
@@ -65,42 +77,25 @@ ul{
     color: white;
 }
 
+.m-top9{
+    margin-top: 9rem;
+}
+
+.m-top14{
+    margin-top: 14rem;
+}
+
+.m-top6{
+    margin-top: 6rem;
+}
+
+.m-bottom9{
+    margin-bottom: 9rem;
+}
+
 /* #endregion*/
 
 /* #region Debug */
-
-main .col {
-    height: 300px;
-    background-color: red;
-}
-
-main .container{
-    background-color: orange;
-    margin-bottom: 10rem;
-}
-
-.col_3{
-    background-color: red;
-    border: 2px solid black;
-}
-
-.text{
-    background-color: deeppink;
-    height: 90%;
-    margin: 1rem;
-    border: 2px solid black;
-}
-
-.big_container{
-    height: 500px;
-    background-color: orange;
-}
-
-footer .container{
-    background-color: orange;
-    margin-bottom: 10rem;
-    height: 400px;
-}
 
 .bottom_container{
     height: 150px;
@@ -188,6 +183,9 @@ span .black{
 /* #endregion */
 
 /* #region Main*/
+main{
+    background-color: white;
+}
 
 main .row{
     justify-content: space-between;
@@ -195,7 +193,7 @@ main .row{
 }
 
 .col_3 {
-    width: 75%;
+    width: 70%;
 }
 
 .reverse{
@@ -205,8 +203,23 @@ main .row{
 .big_container{
     width: 80%;
     margin: auto;
-    margin-top: 20rem;
-    margin-bottom: 10rem;
+}
+
+.text{
+    text-align: center;
+}
+
+.center_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+span .blue{
+    border-radius: 30px;
+    background-color: #8ea1e1;
+    color: #d9dff5;
+    padding: 0.7rem;
 }
 /*#endregion*/
 
