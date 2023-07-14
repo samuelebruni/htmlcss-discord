@@ -1,6 +1,7 @@
 /* #region Commons*/
 
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -16,6 +17,13 @@ body{
 /* #endregion*/
 
 /* #region Utilities */
+
+.container_header{
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+    margin-bottom: 1rem;
+}
 
 .container{
     width: 80%;
@@ -280,7 +288,6 @@ footer .container{
     margin: auto;
     max-width: 1170px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .bottom_row{
